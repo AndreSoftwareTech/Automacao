@@ -17,7 +17,7 @@ r.close()
 texto_email = dolar_hoje + 'hoje' + str(pd.Timestamp('today'))
 
 de = 'andre@zuplae.com'
-senha = 'Av66565@'
+senha = '*****'
 para = 'andregranemann@hotmail.com'
 
 message = MIMEMultipart()
