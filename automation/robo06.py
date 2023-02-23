@@ -6,8 +6,9 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import pandas as pd
 
+url = 'https://www.melhorcambio.com/dolar-hoje'
 r.init()
-r.url('https://www.melhorcambio.com/dolar-hoje')
+r.url(url)
 p.sleep(2)
 
 dolar_hoje = r.read('//*[@id="comercial"]')
